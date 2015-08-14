@@ -1,0 +1,3 @@
+[submodule "iCNAM/EveryoneAPI"]
+	path = iCNAM/EveryoneAPI
+	url = git@github.com:msencenb/EveryoneAPI.git

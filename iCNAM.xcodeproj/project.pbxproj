@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		733D0C121B7DED9A00DDA7D9 /* EveryoneAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D0C0F1B7DED9A00DDA7D9 /* EveryoneAPI.m */; };
+		733D0C131B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D0C111B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.m */; };
 		73AFC5021B7D9B6B008A4C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5011B7D9B6B008A4C91 /* AppDelegate.swift */; };
 		73AFC5041B7D9B6B008A4C91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5031B7D9B6B008A4C91 /* ViewController.swift */; };
 		73AFC5071B7D9B6B008A4C91 /* iCNAM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5051B7D9B6B008A4C91 /* iCNAM.xcdatamodeld */; };
 		73AFC5091B7D9B6B008A4C91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73AFC5081B7D9B6B008A4C91 /* Images.xcassets */; };
 		73AFC50C1B7D9B6B008A4C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AFC50A1B7D9B6B008A4C91 /* Main.storyboard */; };
 		73AFC5181B7D9B6C008A4C91 /* iCNAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5171B7D9B6C008A4C91 /* iCNAMTests.swift */; };
+		73AFC5251B7DA94B008A4C91 /* cnam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5241B7DA94B008A4C91 /* cnam.swift */; };
+		73AFC5271B7DCE54008A4C91 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5261B7DCE54008A4C91 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		733D0C0D1B7DED9900DDA7D9 /* iCNAM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCNAM-Bridging-Header.h"; sourceTree = "<group>"; };
+		733D0C0E1B7DED9A00DDA7D9 /* EveryoneAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EveryoneAPI.h; path = EveryoneAPI/Pod/Classes/EveryoneAPI.h; sourceTree = "<group>"; };
+		733D0C0F1B7DED9A00DDA7D9 /* EveryoneAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EveryoneAPI.m; path = EveryoneAPI/Pod/Classes/EveryoneAPI.m; sourceTree = "<group>"; };
+		733D0C101B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EveryoneAPIResponseObject.h; path = EveryoneAPI/Pod/Classes/EveryoneAPIResponseObject.h; sourceTree = "<group>"; };
+		733D0C111B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EveryoneAPIResponseObject.m; path = EveryoneAPI/Pod/Classes/EveryoneAPIResponseObject.m; sourceTree = "<group>"; };
 		73AFC4FC1B7D9B6B008A4C91 /* iCNAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCNAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AFC5001B7D9B6B008A4C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73AFC5011B7D9B6B008A4C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +45,10 @@
 		73AFC5111B7D9B6B008A4C91 /* iCNAMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCNAMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AFC5161B7D9B6C008A4C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73AFC5171B7D9B6C008A4C91 /* iCNAMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCNAMTests.swift; sourceTree = "<group>"; };
+		73AFC5211B7D9C2A008A4C91 /* iCNAM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iCNAM.entitlements; sourceTree = "<group>"; };
+		73AFC5231B7DA479008A4C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		73AFC5241B7DA94B008A4C91 /* cnam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cnam.swift; sourceTree = "<group>"; };
+		73AFC5261B7DCE54008A4C91 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		733D0C141B7DEDA400DDA7D9 /* EveryoneAPI */ = {
+			isa = PBXGroup;
+			children = (
+				733D0C0E1B7DED9A00DDA7D9 /* EveryoneAPI.h */,
+				733D0C0F1B7DED9A00DDA7D9 /* EveryoneAPI.m */,
+				733D0C101B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.h */,
+				733D0C111B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.m */,
+			);
+			name = EveryoneAPI;
+			sourceTree = "<group>";
+		};
 		73AFC4F31B7D9B6A008A4C91 = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +101,17 @@
 		73AFC4FE1B7D9B6B008A4C91 /* iCNAM */ = {
 			isa = PBXGroup;
 			children = (
+				73AFC5211B7D9C2A008A4C91 /* iCNAM.entitlements */,
 				73AFC5011B7D9B6B008A4C91 /* AppDelegate.swift */,
 				73AFC5031B7D9B6B008A4C91 /* ViewController.swift */,
+				73AFC5241B7DA94B008A4C91 /* cnam.swift */,
+				73AFC5261B7DCE54008A4C91 /* Result.swift */,
 				73AFC5081B7D9B6B008A4C91 /* Images.xcassets */,
+				733D0C141B7DEDA400DDA7D9 /* EveryoneAPI */,
 				73AFC50A1B7D9B6B008A4C91 /* Main.storyboard */,
 				73AFC5051B7D9B6B008A4C91 /* iCNAM.xcdatamodeld */,
 				73AFC4FF1B7D9B6B008A4C91 /* Supporting Files */,
+				733D0C0D1B7DED9900DDA7D9 /* iCNAM-Bridging-Header.h */,
 			);
 			path = iCNAM;
 			sourceTree = "<group>";
@@ -161,6 +190,11 @@
 				TargetAttributes = {
 					73AFC4FB1B7D9B6A008A4C91 = {
 						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					73AFC5101B7D9B6B008A4C91 = {
 						CreatedOnToolsVersion = 6.4;
@@ -211,6 +245,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73AFC5251B7DA94B008A4C91 /* cnam.swift in Sources */,
+				733D0C131B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.m in Sources */,
+				733D0C121B7DED9A00DDA7D9 /* EveryoneAPI.m in Sources */,
+				73AFC5271B7DCE54008A4C91 /* Result.swift in Sources */,
 				73AFC5041B7D9B6B008A4C91 /* ViewController.swift in Sources */,
 				73AFC5021B7D9B6B008A4C91 /* AppDelegate.swift in Sources */,
 				73AFC5071B7D9B6B008A4C91 /* iCNAM.xcdatamodeld in Sources */,
@@ -240,6 +278,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				73AFC50B1B7D9B6B008A4C91 /* Base */,
+				73AFC5231B7DA479008A4C91 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -331,10 +370,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iCNAM/iCNAM.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = iCNAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iCNAM/iCNAM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -342,10 +386,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iCNAM/iCNAM.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = iCNAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iCNAM/iCNAM-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -364,6 +412,7 @@
 				);
 				INFOPLIST_FILE = iCNAMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCNAM.app/Contents/MacOS/iCNAM";
 			};
@@ -380,6 +429,7 @@
 				);
 				INFOPLIST_FILE = iCNAMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCNAM.app/Contents/MacOS/iCNAM";
 			};
@@ -404,6 +454,7 @@
 				73AFC51D1B7D9B6C008A4C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73AFC51E1B7D9B6C008A4C91 /* Build configuration list for PBXNativeTarget "iCNAMTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +463,7 @@
 				73AFC5201B7D9B6C008A4C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
