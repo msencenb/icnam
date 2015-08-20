@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		733D0C121B7DED9A00DDA7D9 /* EveryoneAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D0C0F1B7DED9A00DDA7D9 /* EveryoneAPI.m */; };
-		733D0C131B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D0C111B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.m */; };
 		73AFC5021B7D9B6B008A4C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5011B7D9B6B008A4C91 /* AppDelegate.swift */; };
 		73AFC5041B7D9B6B008A4C91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5031B7D9B6B008A4C91 /* ViewController.swift */; };
 		73AFC5071B7D9B6B008A4C91 /* iCNAM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5051B7D9B6B008A4C91 /* iCNAM.xcdatamodeld */; };
@@ -17,6 +15,8 @@
 		73AFC5181B7D9B6C008A4C91 /* iCNAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5171B7D9B6C008A4C91 /* iCNAMTests.swift */; };
 		73AFC5251B7DA94B008A4C91 /* cnam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5241B7DA94B008A4C91 /* cnam.swift */; };
 		73AFC5271B7DCE54008A4C91 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFC5261B7DCE54008A4C91 /* Result.swift */; };
+		BB812B931B8581E0005B50F3 /* EveryoneAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BB812B901B8581E0005B50F3 /* EveryoneAPI.m */; };
+		BB812B941B8581E0005B50F3 /* EveryoneAPIResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BB812B921B8581E0005B50F3 /* EveryoneAPIResponseObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,10 +31,6 @@
 
 /* Begin PBXFileReference section */
 		733D0C0D1B7DED9900DDA7D9 /* iCNAM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCNAM-Bridging-Header.h"; sourceTree = "<group>"; };
-		733D0C0E1B7DED9A00DDA7D9 /* EveryoneAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EveryoneAPI.h; path = EveryoneAPI/Pod/Classes/EveryoneAPI.h; sourceTree = "<group>"; };
-		733D0C0F1B7DED9A00DDA7D9 /* EveryoneAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EveryoneAPI.m; path = EveryoneAPI/Pod/Classes/EveryoneAPI.m; sourceTree = "<group>"; };
-		733D0C101B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EveryoneAPIResponseObject.h; path = EveryoneAPI/Pod/Classes/EveryoneAPIResponseObject.h; sourceTree = "<group>"; };
-		733D0C111B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EveryoneAPIResponseObject.m; path = EveryoneAPI/Pod/Classes/EveryoneAPIResponseObject.m; sourceTree = "<group>"; };
 		73AFC4FC1B7D9B6B008A4C91 /* iCNAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCNAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AFC5001B7D9B6B008A4C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73AFC5011B7D9B6B008A4C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +45,10 @@
 		73AFC5231B7DA479008A4C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		73AFC5241B7DA94B008A4C91 /* cnam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cnam.swift; sourceTree = "<group>"; };
 		73AFC5261B7DCE54008A4C91 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		BB812B8F1B8581E0005B50F3 /* EveryoneAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EveryoneAPI.h; sourceTree = "<group>"; };
+		BB812B901B8581E0005B50F3 /* EveryoneAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EveryoneAPI.m; sourceTree = "<group>"; };
+		BB812B911B8581E0005B50F3 /* EveryoneAPIResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EveryoneAPIResponseObject.h; sourceTree = "<group>"; };
+		BB812B921B8581E0005B50F3 /* EveryoneAPIResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EveryoneAPIResponseObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +72,10 @@
 		733D0C141B7DEDA400DDA7D9 /* EveryoneAPI */ = {
 			isa = PBXGroup;
 			children = (
-				733D0C0E1B7DED9A00DDA7D9 /* EveryoneAPI.h */,
-				733D0C0F1B7DED9A00DDA7D9 /* EveryoneAPI.m */,
-				733D0C101B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.h */,
-				733D0C111B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.m */,
+				BB812B8F1B8581E0005B50F3 /* EveryoneAPI.h */,
+				BB812B901B8581E0005B50F3 /* EveryoneAPI.m */,
+				BB812B911B8581E0005B50F3 /* EveryoneAPIResponseObject.h */,
+				BB812B921B8581E0005B50F3 /* EveryoneAPIResponseObject.m */,
 			);
 			name = EveryoneAPI;
 			sourceTree = "<group>";
@@ -246,8 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				73AFC5251B7DA94B008A4C91 /* cnam.swift in Sources */,
-				733D0C131B7DED9A00DDA7D9 /* EveryoneAPIResponseObject.m in Sources */,
-				733D0C121B7DED9A00DDA7D9 /* EveryoneAPI.m in Sources */,
+				BB812B941B8581E0005B50F3 /* EveryoneAPIResponseObject.m in Sources */,
+				BB812B931B8581E0005B50F3 /* EveryoneAPI.m in Sources */,
 				73AFC5271B7DCE54008A4C91 /* Result.swift in Sources */,
 				73AFC5041B7D9B6B008A4C91 /* ViewController.swift in Sources */,
 				73AFC5021B7D9B6B008A4C91 /* AppDelegate.swift in Sources */,
