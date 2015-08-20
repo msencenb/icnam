@@ -17,9 +17,15 @@ let auth_token = "AUe03f0c1796c04eed8d838061895b4534";
 // This is the magic sauce - the API call
 func query(phoneNumber: String) {
 
-    var api : EveryoneAPI = EveryoneAPI()
+    var api : EveryoneAPI = EveryoneAPI(accountSID: account_sid, withAuthToken: auth_token)
+    
+    var errorHandler: EveryoneAPIErrorHandler = { readableError in print(readableError) }
+    var successHandler: EveryoneAPISuccessHandler = { response in print(response.cnam) }
+    
+    api.getInformation(EveryoneAPIReturnData.CNAM, forPhoneNumber: "2532171703", withSuccessHandler: successHandler, withErrorHandler: errorHandler)
+    
 
-    EveryoneAPI.getInformation(phoneNumber: phoneNumber, withSuccessHandler, withErrorHandler)
+    //EveryoneAPI.getInformation(phoneNumber: phoneNumber, withSuccessHandler, withErrorHandler)
     
     /* EveryoneAPI *everyoneAPI = [[EveryoneAPI alloc] initWithAccountSID:@"accountSID" withAuthToken:@"authToken"];
     [everyoneAPI getInformation:EveryoneAPIReturnAllInfo forPhoneNumber:@"5551234567" withSuccessHandler:^(EveryoneAPIResponseObject *responseObject){
